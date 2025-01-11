@@ -1,15 +1,32 @@
 {
     "default": "test",
     "forumPostChannelId": [
-        "id_forum_n1", //right click the discord channel - copy id, put the id here.
-        "id_forum_n2" //right click the discord channel - copy id, put the id here.
+        "id_forum_n1", //The id of the first forum
+        "id_forum_n2" //The id of the second forum
     ],
     "forumPostMessage": [
-        "message_forum_n1", //whatever message you want to put in the forum!
-        "message_forum_n2"  //whatever message you want to put in the *other* forum!
+        "message_forum_n1", //The message of the first post
+        "message_forum_n2" //The message of the second post
     ],
     "forumPostTitle": [
-        "Title_Embed_post_n1", //Embed title
-        "Title_Embed_post_n2"  //Embed title
-    ]
+        "Title_Embed_post_n1", //The title of the embed for the first post
+        "Title_Embed_post_n2" //The title of the embed for the second post
+    ],
+    "forumPostButtons": {
+    //possibility to have several buttons following the same pattern
+    //The first button of the first post (only a button that redirects to a link)
+            "id_forum_n1": [ 
+                {
+                    "label": "Google",
+                    "url": "https://google.fr"
+                }
+            ],
+     //The second button of the first post (only a button that redirects to a link)
+            "id_forum_n2": [
+                {
+                    "label": "Google",
+                    "url": "https://google.fr"
+                }
+            ]
+        }
 }
