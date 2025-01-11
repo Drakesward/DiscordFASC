@@ -1,0 +1,15 @@
+{
+    "default": "test",
+    "forumPostChannelId": [
+        "id_forum_n1", //right click the discord channel - copy id, put the id here.
+        "id_forum_n2" //right click the discord channel - copy id, put the id here.
+    ],
+    "forumPostMessage": [
+        "message_forum_n1", //whatever message you want to put in the forum!
+        "message_forum_n2"  //whatever message you want to put in the *other* forum!
+    ],
+    "forumPostTitle": [
+        "Title_Embed_post_n1", //Embed title
+        "Title_Embed_post_n2"  //Embed title
+    ]
+}

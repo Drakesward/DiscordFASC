@@ -1,0 +1,62 @@
+{
+  "name": "DiscordFASC",
+  "version": "1.0.0",
+  "description": "This bot allows you to send automatic messages in a discord forum, and compares that message to its similarity to other messages in the forum.",
+  "main": "index.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "busboy": "^1.6.0",
+    "common-tags": "^1.8.2",
+    "concat-map": "^0.0.1",
+    "discord-api-types": "^0.37.16",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "fast-deep-equal": "^3.1.3",
+    "file-type": "^18.0.0",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "ieee754": "^1.2.1",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "lodash.snakecase": "^4.1.1",
+    "lodash.uniqwith": "^4.5.0",
+    "minimatch": "^3.1.2",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "peek-readable": "^5.0.0",
+    "readable-stream": "^3.6.0",
+    "readable-web-to-node-stream": "^3.0.2",
+    "safe-buffer": "^5.2.1",
+    "streamsearch": "^1.1.0",
+    "string_decoder": "^1.3.0",
+    "string-similarity": "^4.0.4",
+    "strtok3": "^7.0.0",
+    "token-types": "^5.0.1",
+    "ts-mixer": "^6.0.1",
+    "tslib": "^2.4.1",
+    "undici": "^5.12.0",
+    "util-deprecate": "^1.0.2",
+    "wrappy": "^1.0.2",
+    "ws": "^8.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drakesward/DiscordFASC"
+  },
+  "keywords": [
+    "forum",
+    "discord",
+    "post",
+    "automessage"
+  ],
+  "author": "https://github.com/Drakesward",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
