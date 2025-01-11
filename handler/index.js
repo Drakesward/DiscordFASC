@@ -30,16 +30,16 @@ client.on('threadCreate', async (thread) => {
 
                 // Add additional example buttons
                 const button = new ButtonBuilder()
-                    .setLabel("Button One!")
-                    .setURL("https://button.link")
+                    .setLabel("FAQs")
+                    .setURL("https://discord.com/channels/1204418766318862356/1317696921527390228")
                     .setStyle(ButtonStyle.Link);
                 const button1 = new ButtonBuilder()
-                    .setLabel("Button Two!")
-                    .setURL("https://button.link")
+                    .setLabel("Tech Support Example")
+                    .setURL("https://discord.com/channels/1204418766318862356/1327432101724946432")
                     .setStyle(ButtonStyle.Link);
                 const button2 = new ButtonBuilder()
-                    .setLabel("Button Three!")
-                    .setURL("https://button.link")
+                    .setLabel("Bug Report Example")
+                    .setURL("https://discord.com/channels/1204418766318862356/1327435370232549416")
                     .setStyle(ButtonStyle.Link);
                 row.addComponents(button, button1, button2);
 
@@ -50,8 +50,8 @@ client.on('threadCreate', async (thread) => {
                     .setTimestamp()
                     .setColor("#B9E0A2")
                     .setFooter({
-                        text: "Your Server Name",
-                        iconURL: 'https://icon.url'
+                        text: "The Heroes' Journey",
+                        iconURL: 'https://media.discordapp.net/attachments/1325856013101826060/1325856014020378714/Logo_Icon_2.png?ex=67829522&is=678143a2&hm=9558b09931684bf01354506afe9357c3067aaf5dcfaae3a13a1ade8961156aeb&=&format=webp&quality=lossless&width=700&height=700'
                     });
 
                 await thread.send({ embeds: [embed], components: [row] });
